@@ -3,6 +3,7 @@
 - Jest 
 
 # Development
+> yarn and npm is the same, i'm using yarn but it's free.
 
 ```shell
 yarn install
