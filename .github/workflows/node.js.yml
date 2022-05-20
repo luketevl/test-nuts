@@ -68,8 +68,8 @@ jobs:
       uses: schneegans/dynamic-badges-action@v1.0.0
       with:
         auth: ${{ secrets.GIST_SECRET }}
-        gistID: 7d4c25ef2e97e8de523ef7c1fee26e8e
-        filename: your-repo-name__${{ env.BRANCH }}.json
+        gistID: 8b3d8f125e69d7ea157e0ecf96f5d0b5
+        filename: test-nuts__${{ env.BRANCH }}.json
         label: Test Coverage
         message: ${{ env.COVERAGE }}
         color: green
