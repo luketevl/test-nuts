@@ -3,7 +3,7 @@ import { isNumber, isDivisible, getMessage } from './../helpers/validators'
 export type InitData = (final: number) => string | void
 
   
-const init: InitData = (final) => {
+const ex1: InitData = (final) => {
   
   // validate input
   if(!isNumber(final)) throw new Error('Invalid number')
@@ -28,4 +28,4 @@ const init: InitData = (final) => {
 
 }
  
-export default init
+export default ex1
