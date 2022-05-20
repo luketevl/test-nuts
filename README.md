@@ -1,3 +1,6 @@
+# Requirements
+> Version >= v14.18.2 or higher
+
 # Stack
 - Typescript
 - Jest 
